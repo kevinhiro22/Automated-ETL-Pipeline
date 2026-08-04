@@ -1,4 +1,4 @@
-Fashion sales data Analysis 🏨💬🤖
+Fashion sales data Analysis 
 
 
 Introduction 🌍
