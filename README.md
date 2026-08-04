@@ -33,6 +33,7 @@ Project Objectives 🎯
 Conclusion 📈
 
 we have successfully built an automated ETL pipeline that extracts, transforms, and loads retail shopping data into MongoDB compass. By doing this, we might improved efficiency, reduced errors, and ensured consistent data quality. This solution enables faster and more reliable business analysis while providing a scalable foundation for easier decision-making.
+
 Libraries Used 🛠️
 
     Pandas
