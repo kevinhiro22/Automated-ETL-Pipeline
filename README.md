@@ -1,46 +1,117 @@
-Fashion sales data Analysis 
+# 🛍️ Fashion Sales Data Analysis & Automated ETL Pipeline
 
+An end-to-end data engineering project that automates the **Extract, Transform, and Load (ETL)** process for fashion retail sales data using **Apache Airflow**, **PySpark**, **Great Expectations**, and **MongoDB**.
 
-Introduction 🌍
+---
 
-The Customer Shopping Preferences Dataset offers valuable insights into consumer behavior and purchasing patterns. Understanding customer preferences and trends is critical for businesses to tailor their products, marketing strategies, and overall customer experience. This dataset captures a wide range of customer attributes including age, gender, purchase history, preferred payment methods, frequency of purchases, and more. Analyzing this data can help businesses make informed decisions, optimize product offerings, and enhance customer satisfaction. The dataset stands as a valuable resource for businesses aiming to align their strategies with customer needs and preferences.
+## 📖 Project Overview
 
-Dataset Overview 📊
+The **Customer Shopping Trends Dataset** provides valuable insights into consumer purchasing behavior and shopping preferences. By analyzing customer demographics, purchasing habits, payment methods, seasonal trends, and promotional interactions, businesses can better understand their customers and make more informed, data-driven decisions.
 
-The Dataset encompasses various features related to customer shopping preferences, gathering essential information for businesses seeking to enhance their understanding of their customer base. The features include customer age, gender, purchase amount, preferred payment methods, frequency of purchases, and feedback ratings. Additionally, data on the type of items purchased, shopping frequency, preferred shopping seasons, and interactions with promotional offers is included. With a collection of 3900 records, this dataset serves as a foundation for businesses looking to apply data-driven insights for better decision-making and customer-centric strategies.
+This project focuses on building an **automated ETL pipeline** that validates, transforms, and loads customer shopping data into MongoDB, enabling efficient data processing and reliable analytics.
 
-URL for the dataset: (https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset)
+---
 
-Project Instructions 🔍
+## 📊 Dataset
 
-    Making a pre-automation and great expectation.
-    Building an automated pipeline ETL ( Extract, Transform dan Load).
-    Connecting the ETL process using workflow orchestration. 
+* **Source:** Kaggle – Customer Shopping Trends Dataset
+* **Records:** 3,900 customer transactions
+* **Dataset Link:** https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset
 
-Project Objectives 🎯
+### Dataset Features
 
-- Capable of using Apache Airflow.
+The dataset includes information such as:
 
-- Able to validate the data using Great Expectations.
+* 👤 Customer demographics (Age, Gender)
+* 🛒 Purchased items and categories
+* 💳 Preferred payment methods
+* 💰 Purchase amount
+* 📅 Shopping frequency
+* 🌤️ Seasonal shopping preferences
+* 🎁 Promotional campaign interactions
+* ⭐ Customer review ratings
 
-- Skilled in data preparation for NoSQL databases..
+---
 
-- Capable of using PySpark.
+## 🎯 Project Objectives
 
-- Proficient in using MongoDB to orchestrate ETL process workflows.
+This project aims to:
 
+* Build an automated **ETL (Extract, Transform, Load)** pipeline.
+* Perform **data validation** using Great Expectations.
+* Process large datasets efficiently with **PySpark**.
+* Store transformed data in **MongoDB**.
+* Schedule and orchestrate workflows using **Apache Airflow**.
+* Create a scalable and reliable data engineering workflow.
 
-Conclusion 📈
+---
 
-we have successfully built an automated ETL pipeline that extracts, transforms, and loads retail shopping data into MongoDB compass. By doing this, we might improved efficiency, reduced errors, and ensured consistent data quality. This solution enables faster and more reliable business analysis while providing a scalable foundation for easier decision-making.
+## ⚙️ ETL Workflow
 
+1. **Extract**
 
-Libraries Used 🛠️
+   * Retrieve customer shopping data from the source dataset.
 
-    Pandas
-    Pyspark
-    Docker
-    Apache Airflow
-    MongoDB
-    Jupyter notebook
+2. **Validate**
 
+   * Perform data quality validation using Great Expectations.
+
+3. **Transform**
+
+   * Clean, preprocess, and transform the data using PySpark.
+
+4. **Load**
+
+   * Store the processed data into MongoDB.
+
+5. **Orchestrate**
+
+   * Automate the entire workflow using Apache Airflow.
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology         | Purpose                     |
+| ------------------ | --------------------------- |
+| Python             | Data Processing             |
+| Pandas             | Data Manipulation           |
+| PySpark            | Distributed Data Processing |
+| Apache Airflow     | Workflow Orchestration      |
+| Great Expectations | Data Validation             |
+| MongoDB            | NoSQL Database              |
+| Docker             | Containerization            |
+| Jupyter Notebook   | Development & Analysis      |
+
+---
+
+## 📈 Project Outcome
+
+This project successfully demonstrates the implementation of an automated ETL pipeline for retail shopping data. By integrating **Apache Airflow**, **PySpark**, **Great Expectations**, and **MongoDB**, the pipeline automates data extraction, validation, transformation, and loading processes. The solution improves processing efficiency, minimizes manual intervention, enhances data quality, and provides a scalable architecture that supports reliable business analytics and data-driven decision-making.
+
+---
+
+## 🚀 Key Skills Demonstrated
+
+* Data Engineering
+* ETL Pipeline Development
+* Workflow Orchestration
+* Data Validation
+* Big Data Processing
+* NoSQL Database Management
+* Automation
+* Docker Containerization
+
+---
+
+## 📚 Libraries & Tools
+
+```text
+• Pandas
+• PySpark
+• Apache Airflow
+• Great Expectations
+• MongoDB
+• Docker
+• Jupyter Notebook
+```
